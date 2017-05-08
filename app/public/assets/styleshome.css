@@ -1,0 +1,20 @@
+body {
+    background-image: url("../assets/love.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.jumbotron {
+opacity: .5;
+}
+
+.jumbotron{
+    hr: none;
+}
+
+
+.panel {
+    background-color: none;
+
+
+}

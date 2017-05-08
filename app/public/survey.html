@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
+</head>
+<body>
+<div class="container">
+    <!-- Jumbotron for Title -->
+    <div class="jumbotron" style="color: red;">
+        <h1 class="text-center" style="background: transparent">Survey Questions</h1>
+    </div>
+</div>
+<div class="panel-body">
+    <button type="submit" class="btn btn-danger" id="home" onclick="location.href= 'home.html'"><i class="fa fa-search" ></i>Home</button>
+    <!--<a href="home.html" class="btn btn-danger">Home</a>-->
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <br>
+        <div class="panel panel-primary">
+            <h3><strong><i class="fa  fa-list-alt"></i>About You</strong></h3>
+            <form role="form" id="survey-form">
+                <div class="form-group">
+                    <label for="search">Name</label>
+                    <input type="text" class="form-control" id="name-input">
+                </div>
+                <div class="form-group">
+                    <label for="search">Email</label>
+                    <input type="text" class="form-control" id="email-input">
+                </div>
+                <div class="form-group">
+                    <label for="input">Link to Photo </label>
+                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                </div>
+                <hr>
+                <h3><strong><i class="fa  fa-list-alt"></i>Question 1</strong></h3>
+                <label for="quest1">It is important for my partner to have a college education.</label>
+                <select class="form-control" id="quest1">
+                    <option disabled selected hidden> Select an option </option>
+                    <option value = 1>1 (Strongly Agree)</option>
+                    <option value = 2>2</option>
+                    <option value = 3>3</option>
+                    <option value = 4>4</option>
+                    <option value = 5>5 (Strongly Disagree)</option>
+                </select>
+                <h3><strong><i class="fa  fa-list-alt"></i>Question 2</strong></h3>
+                <label for="quest2">I consider myself athletic and enjoy sports.</label>
+                <select class="form-control" id="quest2">
+                    <option disabled selected hidden> Select an option </option>
+                    <option value = 1>1 (Strongly Agree)</option>
+                    <option value = 2>2</option>
+                    <option value = 3>3</option>
+                    <option value = 4>4</option>
+                    <option value = 5>5 (Strongly Disagree)</option>
+                </select>
+                <h3><strong><i class="fa  fa-list-alt"></i>Question 3</strong></h3>
+                <label for="quest3">I am not afraid to try new foods or experiences.</label>
+                <select class="form-control" id="quest3">
+                    <option disabled selected hidden> Select an option </option>
+                    <option value = 1>1 (Strongly Agree)</option>
+                    <option value = 2>2</option>
+                    <option value = 3>3</option>
+                    <option value = 4>4</option>
+                    <option value = 5>5 (Strongly Disagree)</option>
+                </select>
+                <h3><strong><i class="fa  fa-list-alt"></i>Question 4</strong></h3>
+                <label for="quest4">My friends are just as, if not more important than my family.</label>
+                <select class="form-control" id="quest4">
+                    <option disabled selected hidden> Select an option </option>
+                    <option value = 1>1 (Strongly Agree)</option>
+                    <option value = 2>2</option>
+                    <option value = 3>3</option>
+                    <option value = 4>4</option>
+                    <option value = 5>5 (Strongly Disagree)</option>
+                </select>
+                <h3><strong><i class="fa  fa-list-alt"></i>Question 5</strong></h3>
+                <label for="quest5">I prefer to keep a strict schedule versus going with the flow of things.</label>
+                <select class="form-control" id="quest5">
+                    <option disabled selected hidden> Select an option </option>
+                    <option value = 1>1 (Strongly Agree)</option>
+                    <option value = 2>2</option>
+                    <option value = 3>3</option>
+                    <option value = 4>4</option>
+                    <option value = 5>5 (Strongly Disagree)</option>
+                </select>
+                <h3><strong><i class="fa  fa-list-alt"></i>Question 6</strong></h3>
+                <label for="quest6">I prefer to spend Friday nights at home watching a movie versus going out to the clubs or bars.</label>
+                <select class="form-control" id="quest6">
+                    <option disabled selected hidden> Select an option </option>
+                    <option value = 1>1 (Strongly Agree)</option>
+                    <option value = 2>2</option>
+                    <option value = 3>3</option>
+                    <option value = 4>4</option>
+                    <option value = 5>5 (Strongly Disagree)</option>
+                </select>
+                <h3><strong><i class="fa  fa-list-alt"></i>Question 7</strong></h3>
+                <label for="quest7">I enjoy discussing politics and other contriversial matters.</label>
+                <select class="form-control" id="quest7">
+                    <option disabled selected hidden> Select an option </option>
+                    <option value = 1>1 (Strongly Agree)</option>
+                    <option value = 2>2</option>
+                    <option value = 3>3</option>
+                    <option value = 4>4</option>
+                    <option value = 5>5 (Strongly Disagree)</option>
+                </select>
+                <h3><strong><i class="fa  fa-list-alt"></i>Question 8</strong></h3>
+                <label for="quest8">Having a similar faith is important to me.</label>
+                <select class="form-control" id="quest8">
+                    <option disabled selected hidden> Select an option </option>
+                    <option value = 1>1 (Strongly Agree)</option>
+                    <option value = 2>2</option>
+                    <option value = 3>3</option>
+                    <option value = 4>4</option>
+                    <option value = 5>5 (Strongly Disagree)</option>
+                </select>
+                <h3><strong><i class="fa  fa-list-alt"></i>Question 9</strong></h3>
+                <label for="quest9">I would rather buy a lot of nice things than spend money on experiences.</label>
+                <select class="form-control" id="quest9">
+                    <option disabled selected hidden> Select an option </option>
+                    <option value = 1>1 (Strongly Agree)</option>
+                    <option value = 2>2</option>
+                    <option value = 3>3</option>
+                    <option value = 4>4</option>
+                    <option value = 5>5 (Strongly Disagree)</option>
+                </select>
+                <h3><strong><i class="fa  fa-list-alt"></i>Question 10</strong></h3>
+                <label for="quest10">I have a big group of friends versus a few very close friends.</label>
+                <select class="form-control" id="quest10">
+                    <option disabled selected hidden> Select an option </option>
+                    <option value = 1>1 (Strongly Agree)</option>
+                    <option value = 2>2</option>
+                    <option value = 3>3</option>
+                    <option value = 4>4</option>
+                    <option value = 5>5 (Strongly Disagree)</option>
+                </select>
+                <hr>
+                <a class="btn btn-default" id="run-search"><i class="fa fa-search"></i> Submit</a>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel ar">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <hr>
+    </div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<script type="text/javascript">
+    $("#run-search").on("click", function(event) {
+        // event.preventDefault();
+        var quest1 = $("#quest1").val().trim();
+        var quest2 = $("#quest2").val().trim();
+        var quest3 = $("#quest3").val().trim();
+        var quest4 = $("#quest4").val().trim();
+        var quest5 = $("#quest5").val().trim();
+        var quest6 = $("#quest6").val().trim();
+        var quest7 = $("#quest7").val().trim();
+        var quest8 = $("#quest8").val().trim();
+        var quest9 = $("#quest9").val().trim();
+        var quetst10 = $("#quest10").val().trim();
+
+
+        var objToSend = {
+            name : $("#name-input").val().trim(),
+            email:  $("#email-input").val().trim(),
+            photo:  $("#basic-url").val().trim(),
+            questions:  [quest1, quest2, quest3, quest4, quest5, quest6, quest7, quest8, quest9, quetst10 ]
+        };
+        $.post(window.location.origin + "/api/friends", objToSend)
+                .done(function (data) {
+                    if(true)
+                        var name = data.name;
+                    var photo = data.photo;
+
+                    console.log(name);
+                    // jQuery.noConflict();
+                    $('#myModal').modal('show');
+
+                });
+
+        $("#survey-form")[0].reset();
+    });
+</script>
+
+
+</body>
+</html>
